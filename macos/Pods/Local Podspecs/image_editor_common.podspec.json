@@ -1,0 +1,40 @@
+{
+  "name": "image_editor_common",
+  "version": "1.0.0",
+  "summary": "A flutter plugin for edit image data.",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/fluttercandies/flutter_image_editor",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "osx": {
+    "dependencies": {
+      "FlutterMacOS": [
+
+      ]
+    }
+  },
+  "ios": {
+    "dependencies": {
+      "Flutter": [
+
+      ]
+    }
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.15"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  }
+}

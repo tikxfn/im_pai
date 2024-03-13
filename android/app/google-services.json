@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185208123212",
+    "project_id": "fei-ou",
+    "storage_bucket": "fei-ou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185208123212:android:d7f62f40432561577169e9",
+        "android_client_info": {
+          "package_name": "union.message.vip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVsTSlEIbhT81ncT6l_ID3Uy9pR00D7qU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

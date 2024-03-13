@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data:; style-src * 'unsafe-inline';">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+
+    <script src="./vue.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .map_result {
+            height: calc(100% - 50px);
+            overflow: auto;
+        }
+
+        .map_result li {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .map_result li .info {
+            flex: 1;
+        }
+
+        .map_result li .check {
+            height: 17px;
+        }
+
+        .map_result li .desc {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .result_box {
+            height: 50%;
+        }
+
+        .result_box .search {
+            height: 50px;
+            background-color: #eee;
+            padding: 0 7px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .result_box .search input {
+            height: 35px;
+            line-height: 35px;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            padding: 0 10px;
+            border: 0;
+            outline: 0;
+        }
+
+        .map {
+            position: fixed;
+            z-index: 999;
+            width: 100%;
+            height: 100%;
+        }
+
+        .map .map_go_box {
+            display: none;
+        }
+
+        .map .map_box {
+            width: 100%;
+            height: 50%;
+            position: relative;
+        }
+
+        .map .map_box .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 25px;
+            z-index: 1;
+        }
+
+        #mapContainer {
+            width: 100%;
+            height: 100%;
+        }
+
+        .navi .map_go_box {
+            display: flex;
+            height: 90px;
+            padding: 10px;
+            align-items: center;
+        }
+
+        .navi .map_go_box .info {
+            flex: 1;
+        }
+
+        .navi .map_go_box .info .name {
+            font-weight: bold;
+        }
+
+        .navi .map_go_box .info .desc {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .navi .map_go_box .icon {
+            height: 45px;
+        }
+
+        .navi .result_box {
+            display: none;
+        }
+
+        .navi .map_box {
+            height: calc(100% - 90px);
+        }
+
+        .navi .map_box .icon {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="map" :class="showMap ? 'navi' : ''">
+            <div class="map_box">
+                <img class="icon" src="https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png" alt="">
+                <div id="mapContainer"></div>
+            </div>
+
+            <div class="map_go_box" @click="tapNavi()">
+                <div class="info">
+                    <div class="name">{{ locationName }}</div>
+                    <div class="desc">{{ locationDesc }}</div>
+                </div>
+                <img class="icon" src="./navi.png" alt="">
+            </div>
+
+            <div class="result_box">
+                <div class="search">
+                    <input v-model="keywords" @input="inputChange" type="text" placeholder="输入关键词搜索">
+                </div>
+                <ul class="map_result">
+                    <li v-for="(v, i) in list" :key="i" @click="locationChange(v, true)">
+                        <div class="info">
+                            <div class="name">{{ v.name }}</div>
+                            <div class="desc">{{ v.address }}</div>
+                        </div>
+                        <img v-if="locationNow == v" class="check" src="./check.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    window._AMapSecurityConfig = {
+        securityJsCode: "400b3d104f123512e65bf79fd632acf9",
+    }
+</script>
+<script src="https://webapi.amap.com/loader.js"></script>
+
+<script>
+    const { createApp, ref, onMounted, onUnmounted } = Vue
+
+    createApp({
+        setup() {
+            let map = null;
+            let AMap = null;
+            const list = ref([])
+            const locationNow = ref(null)
+            const keywords = ref('')
+            let cityCode = ''
+            const lnglat = feiou.params['lnglat'] ? feiou.params['lnglat'] : ''
+            const locationName = feiou.params['name'] ? feiou.params['name'] : ''
+            const locationDesc = feiou.params['desc'] ? feiou.params['desc'] : ''
+            const showLocation = lnglat.split(',')//要显示的坐标
+            const showMap = showLocation.length >= 2//是否是显示地图
+
+            onMounted(() => {
+                // var url = document.getElementById('feiou').value;
+                // const query = new URLSearchParams(url)
+                // lnglat = query.get('lnglat') ? query.get('lnglat') : ''
+                // locationName.value = query.get('name') ? query.get('name') : '位置'
+                // locationDesc.value = query.get('desc') ? query.get('desc') : ''
+                // showLocation = lnglat.split(',')//要显示的坐标
+                // showMap = showLocation.length >= 2//是否是显示地图
+                // errorHandler(document.getElementById('feiou').value)
+                mapInit();
+            });
+
+            onUnmounted(() => {
+                map.destroy();
+                if (timer) clearTimeout(timer)
+            });
+
+            // 开始加载
+            function loading() {
+                if (window.loadStateHandler) {
+                    window.loadStateHandler.postMessage('loading');
+                }
+            }
+
+            // 加载完成
+            function loadClose() {
+                if (window.loadStateHandler) {
+                    window.loadStateHandler.postMessage('loadclose');
+                }
+            }
+
+            // 错误信息
+            function errorHandler(str) {
+                if (window.errorHandler) {
+                    window.errorHandler.postMessage(str);
+                }
+            }
+
+            // 获取城市代码
+            function getCityCode() {
+                map.getCity((city) => {
+                    cityCode = city.citycode ? city.citycode : ''
+                    // console.log(city)
+                })
+            }
+
+            // 初始化地图
+            async function mapInit() {
+                try {
+                    AMap = await AMapLoader.load({
+                        key: "b2c3e862b52276f334de094343f782ba", // 申请好的Web端开发者Key，首次调用 load 时必填
+                        version: "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
+                        plugins: ['AMap.Geolocation', 'AMap.PlaceSearch'], // 需要使用的的插件列表，如比例尺'AMap.Scale'等
+                    })
+                    var origin = window.location.origin;
+                    var center = [104.092088, 30.450746];
+                    var local = origin.indexOf('localhost') != -1 || origin.indexOf('127.0.0.1') != -1;
+                    var args = { zoom: 16 }
+                    if (local) args.center = center
+                    if (showMap) args.center = showLocation
+                    map = new AMap.Map("mapContainer", args);
+                    if (showMap) {
+                        var marker = new AMap.Marker({
+                            icon: "https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png",
+                            position: showLocation,
+                            anchor: 'bottom-center'
+                        });
+                        map.add(marker)
+                        // marker.setMap(map);
+                        return
+                    }
+                    if (local) positionSearch(center)
+                    map.on('touchend', mapMove)
+                    map.on("complete", function () {
+                        getCityCode()
+                    });
+                    var geolocation = new AMap.Geolocation({
+                        enableHighAccuracy: true, // 是否使用高精度定位，默认：true
+                        timeout: 10000, // 设置定位超时时间，默认：无穷大
+                    })
+                    geolocation.getCurrentPosition(function (status, result) {
+                        if (status == 'complete' && result.position) {
+                            map.setCenter(result.position)
+                            positionSearch(result.position)
+                        } else {
+                            errorHandler(JSON.stringify(status))
+                            errorHandler(JSON.stringify(result))
+                        }
+                    });
+                } catch (error) {
+                    errorHandler(JSON.stringify(error))
+                    console.log(error)
+                }
+            }
+
+            let timer = null
+            // 输入框改变
+            function inputChange() {
+                if (timer) clearTimeout(timer)
+                timer = setTimeout(() => {
+                    if (keywords.value.length <= 0) {
+                        var location = locationNow.value.location
+                        positionSearch([location.lng, location.lat])
+                        return
+                    }
+                    loading()
+                    var placeSearch = new AMap.PlaceSearch({
+                        pageSize: 20, // 单页显示结果条数
+                        pageIndex: 1, // 页码
+                        city: cityCode,
+                    });
+                    placeSearch.search(keywords.value, (status, result) => {
+                        loadClose()
+                        if (status != 'complete' || !result || !result.poiList) {
+                            list.value = []
+                        } else {
+                            list.value = result.poiList.pois
+                        }
+                    });
+                }, 500)
+            }
+
+            // 经纬度搜索
+            function positionSearch(position) {
+                var placeSearch = new AMap.PlaceSearch({
+                    pageSize: 20, // 单页显示结果条数
+                    pageIndex: 1, // 页码
+                });
+                placeSearch.searchNearBy('', position, 1000, (status, result) => {
+                    if (status != 'complete' || !result || !result.poiList) return;
+                    list.value = result.poiList.pois
+                    locationChange(list.value[0] ? list.value[0] : null)
+                });
+            }
+
+            // 地图移动结束
+            async function mapMove() {
+                if (map == null) return
+                var center = map.getCenter()
+                positionSearch([center.lng, center.lat])
+            }
+
+            // 选择改变事件
+            function locationChange(poi, set) {
+                locationNow.value = poi
+                getCityCode()
+                if (set) map.setCenter([poi.location.lng, poi.location.lat])
+                if (poi && window.messageHandler) {
+                    window.messageHandler.postMessage(JSON.stringify(poi));
+                }
+            }
+
+            // 点击导航按钮
+            function tapNavi() {
+                if (window.navigatorHandler) {
+                    window.navigatorHandler.postMessage('');
+                }
+            }
+
+            return {
+                inputChange,
+                tapNavi,
+                locationChange,
+                locationName,
+                locationDesc,
+                keywords,
+                list,
+                locationNow,
+                showMap,
+            }
+        }
+    }).mount('#app')
+
+</script>

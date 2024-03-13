@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+analyzer:
+  exclude:
+    - lib/rpc/generated/**
+    - lib/flutter_quill_extensions/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"

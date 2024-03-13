@@ -1,0 +1,2725 @@
+[
+  {
+    "id": "1",
+    "city_code": "61",
+    "parent_code": "0",
+    "city_name": "陕西省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "47",
+        "city_code": "610100000000",
+        "parent_code": "61",
+        "city_name": "西安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52572",
+        "city_code": "610200000000",
+        "parent_code": "61",
+        "city_name": "铜川市",
+        "city_level": "1"
+      },
+      {
+        "id": "52590",
+        "city_code": "610300000000",
+        "parent_code": "61",
+        "city_name": "宝鸡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52622",
+        "city_code": "610400000000",
+        "parent_code": "61",
+        "city_name": "咸阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52638",
+        "city_code": "610500000000",
+        "parent_code": "61",
+        "city_name": "渭南市",
+        "city_level": "1"
+      },
+      {
+        "id": "52651",
+        "city_code": "610600000000",
+        "parent_code": "61",
+        "city_name": "延安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52668",
+        "city_code": "610700000000",
+        "parent_code": "61",
+        "city_name": "汉中市",
+        "city_level": "1"
+      },
+      {
+        "id": "52682",
+        "city_code": "610800000000",
+        "parent_code": "61",
+        "city_name": "榆林市",
+        "city_level": "1"
+      },
+      {
+        "id": "52698",
+        "city_code": "610900000000",
+        "parent_code": "61",
+        "city_name": "安康市",
+        "city_level": "1"
+      },
+      {
+        "id": "52711",
+        "city_code": "611000000000",
+        "parent_code": "61",
+        "city_name": "商洛市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "city_code": "13",
+    "parent_code": "0",
+    "city_name": "河北省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "42",
+        "city_code": "130100000000",
+        "parent_code": "13",
+        "city_name": "石家庄市",
+        "city_level": "1"
+      },
+      {
+        "id": "52767",
+        "city_code": "130200000000",
+        "parent_code": "13",
+        "city_name": "唐山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52776",
+        "city_code": "130300000000",
+        "parent_code": "13",
+        "city_name": "秦皇岛市",
+        "city_level": "1"
+      },
+      {
+        "id": "52782",
+        "city_code": "130400000000",
+        "parent_code": "13",
+        "city_name": "邯郸市",
+        "city_level": "1"
+      },
+      {
+        "id": "52788",
+        "city_code": "130500000000",
+        "parent_code": "13",
+        "city_name": "邢台市",
+        "city_level": "1"
+      },
+      {
+        "id": "52797",
+        "city_code": "130600000000",
+        "parent_code": "13",
+        "city_name": "保定市",
+        "city_level": "1"
+      },
+      {
+        "id": "52804",
+        "city_code": "130700000000",
+        "parent_code": "13",
+        "city_name": "张家口市",
+        "city_level": "1"
+      },
+      {
+        "id": "52807",
+        "city_code": "130800000000",
+        "parent_code": "13",
+        "city_name": "承德市",
+        "city_level": "1"
+      },
+      {
+        "id": "52810",
+        "city_code": "130900000000",
+        "parent_code": "13",
+        "city_name": "沧州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52812",
+        "city_code": "131000000000",
+        "parent_code": "13",
+        "city_name": "廊坊市",
+        "city_level": "1"
+      },
+      {
+        "id": "52814",
+        "city_code": "131100000000",
+        "parent_code": "13",
+        "city_name": "衡水市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "city_code": "15",
+    "parent_code": "0",
+    "city_name": "内蒙古自治区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "59",
+        "city_code": "150100000000",
+        "parent_code": "15",
+        "city_name": "呼和浩特市",
+        "city_level": "1"
+      },
+      {
+        "id": "45249",
+        "city_code": "150200000000",
+        "parent_code": "15",
+        "city_name": "包头市",
+        "city_level": "1"
+      },
+      {
+        "id": "52425",
+        "city_code": "150300000000",
+        "parent_code": "15",
+        "city_name": "乌海市",
+        "city_level": "1"
+      },
+      {
+        "id": "52434",
+        "city_code": "150400000000",
+        "parent_code": "15",
+        "city_name": "赤峰市",
+        "city_level": "1"
+      },
+      {
+        "id": "52444",
+        "city_code": "150500000000",
+        "parent_code": "15",
+        "city_name": "通辽市",
+        "city_level": "1"
+      },
+      {
+        "id": "52458",
+        "city_code": "150600000000",
+        "parent_code": "15",
+        "city_name": "鄂尔多斯市",
+        "city_level": "1"
+      },
+      {
+        "id": "52472",
+        "city_code": "150700000000",
+        "parent_code": "15",
+        "city_name": "呼伦贝尔市",
+        "city_level": "1"
+      },
+      {
+        "id": "52487",
+        "city_code": "150800000000",
+        "parent_code": "15",
+        "city_name": "巴彦淖尔市",
+        "city_level": "1"
+      },
+      {
+        "id": "52503",
+        "city_code": "150900000000",
+        "parent_code": "15",
+        "city_name": "乌兰察布市",
+        "city_level": "1"
+      },
+      {
+        "id": "52514",
+        "city_code": "152200000000",
+        "parent_code": "15",
+        "city_name": "兴安盟",
+        "city_level": "1"
+      },
+      {
+        "id": "52542",
+        "city_code": "152500000000",
+        "parent_code": "15",
+        "city_name": "锡林郭勒盟",
+        "city_level": "1"
+      },
+      {
+        "id": "52564",
+        "city_code": "152900000000",
+        "parent_code": "15",
+        "city_name": "阿拉善盟",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "city_code": "12",
+    "parent_code": "0",
+    "city_name": "天津市",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "50",
+        "city_code": "120100000000",
+        "parent_code": "12",
+        "city_name": "天津市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "city_code": "43",
+    "parent_code": "0",
+    "city_name": "湖南省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "61",
+        "city_code": "430100000000",
+        "parent_code": "43",
+        "city_name": "长沙市",
+        "city_level": "1"
+      },
+      {
+        "id": "52563",
+        "city_code": "430200000000",
+        "parent_code": "43",
+        "city_name": "株洲市",
+        "city_level": "1"
+      },
+      {
+        "id": "52582",
+        "city_code": "430300000000",
+        "parent_code": "43",
+        "city_name": "湘潭市",
+        "city_level": "1"
+      },
+      {
+        "id": "52600",
+        "city_code": "430400000000",
+        "parent_code": "43",
+        "city_name": "衡阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52609",
+        "city_code": "430500000000",
+        "parent_code": "43",
+        "city_name": "邵阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52636",
+        "city_code": "430600000000",
+        "parent_code": "43",
+        "city_name": "岳阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52649",
+        "city_code": "430700000000",
+        "parent_code": "43",
+        "city_name": "常德市",
+        "city_level": "1"
+      },
+      {
+        "id": "52664",
+        "city_code": "430800000000",
+        "parent_code": "43",
+        "city_name": "张家界市",
+        "city_level": "1"
+      },
+      {
+        "id": "52679",
+        "city_code": "430900000000",
+        "parent_code": "43",
+        "city_name": "益阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52695",
+        "city_code": "431000000000",
+        "parent_code": "43",
+        "city_name": "郴州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52704",
+        "city_code": "431100000000",
+        "parent_code": "43",
+        "city_name": "永州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52719",
+        "city_code": "431200000000",
+        "parent_code": "43",
+        "city_name": "怀化市",
+        "city_level": "1"
+      },
+      {
+        "id": "52729",
+        "city_code": "431300000000",
+        "parent_code": "43",
+        "city_name": "娄底市",
+        "city_level": "1"
+      },
+      {
+        "id": "52748",
+        "city_code": "433100000000",
+        "parent_code": "43",
+        "city_name": "湘西土家族苗族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "city_code": "53",
+    "parent_code": "0",
+    "city_name": "云南省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "45",
+        "city_code": "530100000000",
+        "parent_code": "53",
+        "city_name": "昆明市",
+        "city_level": "1"
+      },
+      {
+        "id": "52441",
+        "city_code": "530300000000",
+        "parent_code": "53",
+        "city_name": "曲靖市",
+        "city_level": "1"
+      },
+      {
+        "id": "52453",
+        "city_code": "530400000000",
+        "parent_code": "53",
+        "city_name": "玉溪市",
+        "city_level": "1"
+      },
+      {
+        "id": "52469",
+        "city_code": "530500000000",
+        "parent_code": "53",
+        "city_name": "保山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52476",
+        "city_code": "530600000000",
+        "parent_code": "53",
+        "city_name": "昭通市",
+        "city_level": "1"
+      },
+      {
+        "id": "52498",
+        "city_code": "530700000000",
+        "parent_code": "53",
+        "city_name": "丽江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52519",
+        "city_code": "530800000000",
+        "parent_code": "53",
+        "city_name": "普洱市",
+        "city_level": "1"
+      },
+      {
+        "id": "52541",
+        "city_code": "530900000000",
+        "parent_code": "53",
+        "city_name": "临沧市",
+        "city_level": "1"
+      },
+      {
+        "id": "52558",
+        "city_code": "532300000000",
+        "parent_code": "53",
+        "city_name": "楚雄彝族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52577",
+        "city_code": "532500000000",
+        "parent_code": "53",
+        "city_name": "红河哈尼族彝族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52599",
+        "city_code": "532600000000",
+        "parent_code": "53",
+        "city_name": "文山壮族苗族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52620",
+        "city_code": "532800000000",
+        "parent_code": "53",
+        "city_name": "西双版纳傣族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52635",
+        "city_code": "532900000000",
+        "parent_code": "53",
+        "city_name": "大理白族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52650",
+        "city_code": "533100000000",
+        "parent_code": "53",
+        "city_name": "德宏傣族景颇族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52667",
+        "city_code": "533300000000",
+        "parent_code": "53",
+        "city_name": "怒江傈僳族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52683",
+        "city_code": "533400000000",
+        "parent_code": "53",
+        "city_name": "迪庆藏族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "city_code": "34",
+    "parent_code": "0",
+    "city_name": "安徽省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "52",
+        "city_code": "340100000000",
+        "parent_code": "34",
+        "city_name": "合肥市",
+        "city_level": "1"
+      },
+      {
+        "id": "52432",
+        "city_code": "340200000000",
+        "parent_code": "34",
+        "city_name": "芜湖市",
+        "city_level": "1"
+      },
+      {
+        "id": "52445",
+        "city_code": "340300000000",
+        "parent_code": "34",
+        "city_name": "蚌埠市",
+        "city_level": "1"
+      },
+      {
+        "id": "52459",
+        "city_code": "340400000000",
+        "parent_code": "34",
+        "city_name": "淮南市",
+        "city_level": "1"
+      },
+      {
+        "id": "52473",
+        "city_code": "340500000000",
+        "parent_code": "34",
+        "city_name": "马鞍山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52488",
+        "city_code": "340600000000",
+        "parent_code": "34",
+        "city_name": "淮北市",
+        "city_level": "1"
+      },
+      {
+        "id": "52505",
+        "city_code": "340700000000",
+        "parent_code": "34",
+        "city_name": "铜陵市",
+        "city_level": "1"
+      },
+      {
+        "id": "52524",
+        "city_code": "340800000000",
+        "parent_code": "34",
+        "city_name": "安庆市",
+        "city_level": "1"
+      },
+      {
+        "id": "52543",
+        "city_code": "341000000000",
+        "parent_code": "34",
+        "city_name": "黄山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52559",
+        "city_code": "341100000000",
+        "parent_code": "34",
+        "city_name": "滁州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52578",
+        "city_code": "341200000000",
+        "parent_code": "34",
+        "city_name": "阜阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52597",
+        "city_code": "341300000000",
+        "parent_code": "34",
+        "city_name": "宿州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52611",
+        "city_code": "341500000000",
+        "parent_code": "34",
+        "city_name": "六安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52625",
+        "city_code": "341600000000",
+        "parent_code": "34",
+        "city_name": "亳州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52646",
+        "city_code": "341700000000",
+        "parent_code": "34",
+        "city_name": "池州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52663",
+        "city_code": "341800000000",
+        "parent_code": "34",
+        "city_name": "宣城市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "city_code": "44",
+    "parent_code": "0",
+    "city_name": "广东省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "62",
+        "city_code": "440100000000",
+        "parent_code": "44",
+        "city_name": "广州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52422",
+        "city_code": "440200000000",
+        "parent_code": "44",
+        "city_name": "韶关市",
+        "city_level": "1"
+      },
+      {
+        "id": "52429",
+        "city_code": "440300000000",
+        "parent_code": "44",
+        "city_name": "深圳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52440",
+        "city_code": "440400000000",
+        "parent_code": "44",
+        "city_name": "珠海市",
+        "city_level": "1"
+      },
+      {
+        "id": "52449",
+        "city_code": "440500000000",
+        "parent_code": "44",
+        "city_name": "汕头市",
+        "city_level": "1"
+      },
+      {
+        "id": "52465",
+        "city_code": "440600000000",
+        "parent_code": "44",
+        "city_name": "佛山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52479",
+        "city_code": "440700000000",
+        "parent_code": "44",
+        "city_name": "江门市",
+        "city_level": "1"
+      },
+      {
+        "id": "52495",
+        "city_code": "440800000000",
+        "parent_code": "44",
+        "city_name": "湛江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52512",
+        "city_code": "440900000000",
+        "parent_code": "44",
+        "city_name": "茂名市",
+        "city_level": "1"
+      },
+      {
+        "id": "52534",
+        "city_code": "441200000000",
+        "parent_code": "44",
+        "city_name": "肇庆市",
+        "city_level": "1"
+      },
+      {
+        "id": "52553",
+        "city_code": "441300000000",
+        "parent_code": "44",
+        "city_name": "惠州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52575",
+        "city_code": "441400000000",
+        "parent_code": "44",
+        "city_name": "梅州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52592",
+        "city_code": "441500000000",
+        "parent_code": "44",
+        "city_name": "汕尾市",
+        "city_level": "1"
+      },
+      {
+        "id": "52606",
+        "city_code": "441600000000",
+        "parent_code": "44",
+        "city_name": "河源市",
+        "city_level": "1"
+      },
+      {
+        "id": "52623",
+        "city_code": "441700000000",
+        "parent_code": "44",
+        "city_name": "阳江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52639",
+        "city_code": "441800000000",
+        "parent_code": "44",
+        "city_name": "清远市",
+        "city_level": "1"
+      },
+      {
+        "id": "52653",
+        "city_code": "441900000000",
+        "parent_code": "44",
+        "city_name": "东莞市",
+        "city_level": "1"
+      },
+      {
+        "id": "52671",
+        "city_code": "442000000000",
+        "parent_code": "44",
+        "city_name": "中山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52686",
+        "city_code": "445100000000",
+        "parent_code": "44",
+        "city_name": "潮州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52701",
+        "city_code": "445200000000",
+        "parent_code": "44",
+        "city_name": "揭阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52718",
+        "city_code": "445300000000",
+        "parent_code": "44",
+        "city_name": "云浮市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "city_code": "35",
+    "parent_code": "0",
+    "city_name": "福建省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "38",
+        "city_code": "350100000000",
+        "parent_code": "35",
+        "city_name": "福州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52573",
+        "city_code": "350200000000",
+        "parent_code": "35",
+        "city_name": "厦门市",
+        "city_level": "1"
+      },
+      {
+        "id": "52605",
+        "city_code": "350300000000",
+        "parent_code": "35",
+        "city_name": "莆田市",
+        "city_level": "1"
+      },
+      {
+        "id": "52619",
+        "city_code": "350400000000",
+        "parent_code": "35",
+        "city_name": "三明市",
+        "city_level": "1"
+      },
+      {
+        "id": "52630",
+        "city_code": "350500000000",
+        "parent_code": "35",
+        "city_name": "泉州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52641",
+        "city_code": "350600000000",
+        "parent_code": "35",
+        "city_name": "漳州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52660",
+        "city_code": "350700000000",
+        "parent_code": "35",
+        "city_name": "南平市",
+        "city_level": "1"
+      },
+      {
+        "id": "52678",
+        "city_code": "350800000000",
+        "parent_code": "35",
+        "city_name": "龙岩市",
+        "city_level": "1"
+      },
+      {
+        "id": "52693",
+        "city_code": "350900000000",
+        "parent_code": "35",
+        "city_name": "宁德市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "city_code": "54",
+    "parent_code": "0",
+    "city_name": "西藏自治区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "34",
+        "city_code": "540100000000",
+        "parent_code": "54",
+        "city_name": "拉萨市",
+        "city_level": "1"
+      },
+      {
+        "id": "13786",
+        "city_code": "540200000000",
+        "parent_code": "54",
+        "city_name": "日喀则市",
+        "city_level": "1"
+      },
+      {
+        "id": "52526",
+        "city_code": "540300000000",
+        "parent_code": "54",
+        "city_name": "昌都市",
+        "city_level": "1"
+      },
+      {
+        "id": "52544",
+        "city_code": "540400000000",
+        "parent_code": "54",
+        "city_name": "林芝市",
+        "city_level": "1"
+      },
+      {
+        "id": "52565",
+        "city_code": "540500000000",
+        "parent_code": "54",
+        "city_name": "山南市",
+        "city_level": "1"
+      },
+      {
+        "id": "52584",
+        "city_code": "540600000000",
+        "parent_code": "54",
+        "city_name": "那曲市",
+        "city_level": "1"
+      },
+      {
+        "id": "52601",
+        "city_code": "542500000000",
+        "parent_code": "54",
+        "city_name": "阿里地区",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "city_code": "14",
+    "parent_code": "0",
+    "city_name": "山西省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "54",
+        "city_code": "140100000000",
+        "parent_code": "14",
+        "city_name": "太原市",
+        "city_level": "1"
+      },
+      {
+        "id": "47770",
+        "city_code": "140200000000",
+        "parent_code": "14",
+        "city_name": "大同市",
+        "city_level": "1"
+      },
+      {
+        "id": "52427",
+        "city_code": "140300000000",
+        "parent_code": "14",
+        "city_name": "阳泉市",
+        "city_level": "1"
+      },
+      {
+        "id": "52438",
+        "city_code": "140400000000",
+        "parent_code": "14",
+        "city_name": "长治市",
+        "city_level": "1"
+      },
+      {
+        "id": "52450",
+        "city_code": "140500000000",
+        "parent_code": "14",
+        "city_name": "晋城市",
+        "city_level": "1"
+      },
+      {
+        "id": "52460",
+        "city_code": "140600000000",
+        "parent_code": "14",
+        "city_name": "朔州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52475",
+        "city_code": "140700000000",
+        "parent_code": "14",
+        "city_name": "晋中市",
+        "city_level": "1"
+      },
+      {
+        "id": "52491",
+        "city_code": "140800000000",
+        "parent_code": "14",
+        "city_name": "运城市",
+        "city_level": "1"
+      },
+      {
+        "id": "52510",
+        "city_code": "140900000000",
+        "parent_code": "14",
+        "city_name": "忻州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52529",
+        "city_code": "141000000000",
+        "parent_code": "14",
+        "city_name": "临汾市",
+        "city_level": "1"
+      },
+      {
+        "id": "52546",
+        "city_code": "141100000000",
+        "parent_code": "14",
+        "city_name": "吕梁市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "city_code": "37",
+    "parent_code": "0",
+    "city_name": "山东省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "46",
+        "city_code": "370100000000",
+        "parent_code": "37",
+        "city_name": "济南市",
+        "city_level": "1"
+      },
+      {
+        "id": "52591",
+        "city_code": "370200000000",
+        "parent_code": "37",
+        "city_name": "青岛市",
+        "city_level": "1"
+      },
+      {
+        "id": "52607",
+        "city_code": "370300000000",
+        "parent_code": "37",
+        "city_name": "淄博市",
+        "city_level": "1"
+      },
+      {
+        "id": "52626",
+        "city_code": "370400000000",
+        "parent_code": "37",
+        "city_name": "枣庄市",
+        "city_level": "1"
+      },
+      {
+        "id": "52640",
+        "city_code": "370500000000",
+        "parent_code": "37",
+        "city_name": "东营市",
+        "city_level": "1"
+      },
+      {
+        "id": "52655",
+        "city_code": "370600000000",
+        "parent_code": "37",
+        "city_name": "烟台市",
+        "city_level": "1"
+      },
+      {
+        "id": "52670",
+        "city_code": "370700000000",
+        "parent_code": "37",
+        "city_name": "潍坊市",
+        "city_level": "1"
+      },
+      {
+        "id": "52685",
+        "city_code": "370800000000",
+        "parent_code": "37",
+        "city_name": "济宁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52699",
+        "city_code": "370900000000",
+        "parent_code": "37",
+        "city_name": "泰安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52713",
+        "city_code": "371000000000",
+        "parent_code": "37",
+        "city_name": "威海市",
+        "city_level": "1"
+      },
+      {
+        "id": "52723",
+        "city_code": "371100000000",
+        "parent_code": "37",
+        "city_name": "日照市",
+        "city_level": "1"
+      },
+      {
+        "id": "52736",
+        "city_code": "371300000000",
+        "parent_code": "37",
+        "city_name": "临沂市",
+        "city_level": "1"
+      },
+      {
+        "id": "52751",
+        "city_code": "371400000000",
+        "parent_code": "37",
+        "city_name": "德州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52760",
+        "city_code": "371500000000",
+        "parent_code": "37",
+        "city_name": "聊城市",
+        "city_level": "1"
+      },
+      {
+        "id": "52771",
+        "city_code": "371600000000",
+        "parent_code": "37",
+        "city_name": "滨州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52786",
+        "city_code": "371700000000",
+        "parent_code": "37",
+        "city_name": "菏泽市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "city_code": "21",
+    "parent_code": "0",
+    "city_name": "辽宁省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "44",
+        "city_code": "210100000000",
+        "parent_code": "21",
+        "city_name": "沈阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52435",
+        "city_code": "210200000000",
+        "parent_code": "21",
+        "city_name": "大连市",
+        "city_level": "1"
+      },
+      {
+        "id": "52451",
+        "city_code": "210300000000",
+        "parent_code": "21",
+        "city_name": "鞍山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52462",
+        "city_code": "210400000000",
+        "parent_code": "21",
+        "city_name": "抚顺市",
+        "city_level": "1"
+      },
+      {
+        "id": "52474",
+        "city_code": "210500000000",
+        "parent_code": "21",
+        "city_name": "本溪市",
+        "city_level": "1"
+      },
+      {
+        "id": "52490",
+        "city_code": "210600000000",
+        "parent_code": "21",
+        "city_name": "丹东市",
+        "city_level": "1"
+      },
+      {
+        "id": "52506",
+        "city_code": "210700000000",
+        "parent_code": "21",
+        "city_name": "锦州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52525",
+        "city_code": "210800000000",
+        "parent_code": "21",
+        "city_name": "营口市",
+        "city_level": "1"
+      },
+      {
+        "id": "52554",
+        "city_code": "210900000000",
+        "parent_code": "21",
+        "city_name": "阜新市",
+        "city_level": "1"
+      },
+      {
+        "id": "52570",
+        "city_code": "211000000000",
+        "parent_code": "21",
+        "city_name": "辽阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52734",
+        "city_code": "211100000000",
+        "parent_code": "21",
+        "city_name": "盘锦市",
+        "city_level": "1"
+      },
+      {
+        "id": "52745",
+        "city_code": "211200000000",
+        "parent_code": "21",
+        "city_name": "铁岭市",
+        "city_level": "1"
+      },
+      {
+        "id": "52757",
+        "city_code": "211300000000",
+        "parent_code": "21",
+        "city_name": "朝阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52768",
+        "city_code": "211400000000",
+        "parent_code": "21",
+        "city_name": "葫芦岛市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "city_code": "41",
+    "parent_code": "0",
+    "city_name": "河南省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "53",
+        "city_code": "410100000000",
+        "parent_code": "41",
+        "city_name": "郑州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52634",
+        "city_code": "410200000000",
+        "parent_code": "41",
+        "city_name": "开封市",
+        "city_level": "1"
+      },
+      {
+        "id": "52648",
+        "city_code": "410300000000",
+        "parent_code": "41",
+        "city_name": "洛阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52665",
+        "city_code": "410400000000",
+        "parent_code": "41",
+        "city_name": "平顶山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52680",
+        "city_code": "410500000000",
+        "parent_code": "41",
+        "city_name": "安阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52689",
+        "city_code": "410600000000",
+        "parent_code": "41",
+        "city_name": "鹤壁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52700",
+        "city_code": "410700000000",
+        "parent_code": "41",
+        "city_name": "新乡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52712",
+        "city_code": "410800000000",
+        "parent_code": "41",
+        "city_name": "焦作市",
+        "city_level": "1"
+      },
+      {
+        "id": "52725",
+        "city_code": "410900000000",
+        "parent_code": "41",
+        "city_name": "濮阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52737",
+        "city_code": "411000000000",
+        "parent_code": "41",
+        "city_name": "许昌市",
+        "city_level": "1"
+      },
+      {
+        "id": "52749",
+        "city_code": "411100000000",
+        "parent_code": "41",
+        "city_name": "漯河市",
+        "city_level": "1"
+      },
+      {
+        "id": "52762",
+        "city_code": "411200000000",
+        "parent_code": "41",
+        "city_name": "三门峡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52773",
+        "city_code": "411300000000",
+        "parent_code": "41",
+        "city_name": "南阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52781",
+        "city_code": "411400000000",
+        "parent_code": "41",
+        "city_name": "商丘市",
+        "city_level": "1"
+      },
+      {
+        "id": "52791",
+        "city_code": "411500000000",
+        "parent_code": "41",
+        "city_name": "信阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52796",
+        "city_code": "411600000000",
+        "parent_code": "41",
+        "city_name": "周口市",
+        "city_level": "1"
+      },
+      {
+        "id": "52800",
+        "city_code": "411700000000",
+        "parent_code": "41",
+        "city_name": "驻马店市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "city_code": "46",
+    "parent_code": "0",
+    "city_name": "海南省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "58",
+        "city_code": "460100000000",
+        "parent_code": "46",
+        "city_name": "海口市",
+        "city_level": "1"
+      },
+      {
+        "id": "15306",
+        "city_code": "460200000000",
+        "parent_code": "46",
+        "city_name": "三亚市",
+        "city_level": "1"
+      },
+      {
+        "id": "19727",
+        "city_code": "460300000000",
+        "parent_code": "46",
+        "city_name": "三沙市",
+        "city_level": "1"
+      },
+      {
+        "id": "20720",
+        "city_code": "460400000000",
+        "parent_code": "46",
+        "city_name": "儋州市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "city_code": "33",
+    "parent_code": "0",
+    "city_name": "浙江省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663134",
+        "city_code": "330782000000",
+        "parent_code": "33",
+        "city_name": "义乌市",
+        "city_level": "1"
+      },
+      {
+        "id": "40",
+        "city_code": "330100000000",
+        "parent_code": "33",
+        "city_name": "杭州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52669",
+        "city_code": "330200000000",
+        "parent_code": "33",
+        "city_name": "宁波市",
+        "city_level": "1"
+      },
+      {
+        "id": "52684",
+        "city_code": "330300000000",
+        "parent_code": "33",
+        "city_name": "温州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52697",
+        "city_code": "330400000000",
+        "parent_code": "33",
+        "city_name": "嘉兴市",
+        "city_level": "1"
+      },
+      {
+        "id": "52709",
+        "city_code": "330500000000",
+        "parent_code": "33",
+        "city_name": "湖州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52722",
+        "city_code": "330600000000",
+        "parent_code": "33",
+        "city_name": "绍兴市",
+        "city_level": "1"
+      },
+      {
+        "id": "52732",
+        "city_code": "330700000000",
+        "parent_code": "33",
+        "city_name": "金华市",
+        "city_level": "1"
+      },
+      {
+        "id": "52743",
+        "city_code": "330800000000",
+        "parent_code": "33",
+        "city_name": "衢州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52756",
+        "city_code": "330900000000",
+        "parent_code": "33",
+        "city_name": "舟山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52765",
+        "city_code": "331000000000",
+        "parent_code": "33",
+        "city_name": "台州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52774",
+        "city_code": "331100000000",
+        "parent_code": "33",
+        "city_name": "丽水市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "city_code": "64",
+    "parent_code": "0",
+    "city_name": "宁夏回族自治区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "33",
+        "city_code": "640100000000",
+        "parent_code": "64",
+        "city_name": "银川市",
+        "city_level": "1"
+      },
+      {
+        "id": "21695",
+        "city_code": "640200000000",
+        "parent_code": "64",
+        "city_name": "石嘴山市",
+        "city_level": "1"
+      },
+      {
+        "id": "33526",
+        "city_code": "640300000000",
+        "parent_code": "64",
+        "city_name": "吴忠市",
+        "city_level": "1"
+      },
+      {
+        "id": "52433",
+        "city_code": "640400000000",
+        "parent_code": "64",
+        "city_name": "固原市",
+        "city_level": "1"
+      },
+      {
+        "id": "52443",
+        "city_code": "640500000000",
+        "parent_code": "64",
+        "city_name": "中卫市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "city_code": "50",
+    "parent_code": "0",
+    "city_name": "重庆市",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "37",
+        "city_code": "500100000000",
+        "parent_code": "50",
+        "city_name": "重庆市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "city_code": "51",
+    "parent_code": "0",
+    "city_name": "四川省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "60",
+        "city_code": "510100000000",
+        "parent_code": "51",
+        "city_name": "成都市",
+        "city_level": "1"
+      },
+      {
+        "id": "52585",
+        "city_code": "510300000000",
+        "parent_code": "51",
+        "city_name": "自贡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52602",
+        "city_code": "510400000000",
+        "parent_code": "51",
+        "city_name": "攀枝花市",
+        "city_level": "1"
+      },
+      {
+        "id": "52617",
+        "city_code": "510500000000",
+        "parent_code": "51",
+        "city_name": "泸州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52632",
+        "city_code": "510600000000",
+        "parent_code": "51",
+        "city_name": "德阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52644",
+        "city_code": "510700000000",
+        "parent_code": "51",
+        "city_name": "绵阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52659",
+        "city_code": "510800000000",
+        "parent_code": "51",
+        "city_name": "广元市",
+        "city_level": "1"
+      },
+      {
+        "id": "52676",
+        "city_code": "510900000000",
+        "parent_code": "51",
+        "city_name": "遂宁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52692",
+        "city_code": "511000000000",
+        "parent_code": "51",
+        "city_name": "内江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52703",
+        "city_code": "511100000000",
+        "parent_code": "51",
+        "city_name": "乐山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52714",
+        "city_code": "511300000000",
+        "parent_code": "51",
+        "city_name": "南充市",
+        "city_level": "1"
+      },
+      {
+        "id": "52724",
+        "city_code": "511400000000",
+        "parent_code": "51",
+        "city_name": "眉山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52742",
+        "city_code": "511500000000",
+        "parent_code": "51",
+        "city_name": "宜宾市",
+        "city_level": "1"
+      },
+      {
+        "id": "52754",
+        "city_code": "511600000000",
+        "parent_code": "51",
+        "city_name": "广安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52764",
+        "city_code": "511700000000",
+        "parent_code": "51",
+        "city_name": "达州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52777",
+        "city_code": "511800000000",
+        "parent_code": "51",
+        "city_name": "雅安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52783",
+        "city_code": "511900000000",
+        "parent_code": "51",
+        "city_name": "巴中市",
+        "city_level": "1"
+      },
+      {
+        "id": "52789",
+        "city_code": "512000000000",
+        "parent_code": "51",
+        "city_name": "资阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52793",
+        "city_code": "513200000000",
+        "parent_code": "51",
+        "city_name": "阿坝藏族羌族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52798",
+        "city_code": "513300000000",
+        "parent_code": "51",
+        "city_name": "甘孜藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52806",
+        "city_code": "513400000000",
+        "parent_code": "51",
+        "city_name": "凉山彝族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "city_code": "65",
+    "parent_code": "0",
+    "city_name": "新疆维吾尔自治区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "56",
+        "city_code": "650100000000",
+        "parent_code": "65",
+        "city_name": "乌鲁木齐市",
+        "city_level": "1"
+      },
+      {
+        "id": "39972",
+        "city_code": "650200000000",
+        "parent_code": "65",
+        "city_name": "克拉玛依市",
+        "city_level": "1"
+      },
+      {
+        "id": "45464",
+        "city_code": "650400000000",
+        "parent_code": "65",
+        "city_name": "吐鲁番市",
+        "city_level": "1"
+      },
+      {
+        "id": "52621",
+        "city_code": "650500000000",
+        "parent_code": "65",
+        "city_name": "哈密市",
+        "city_level": "1"
+      },
+      {
+        "id": "52637",
+        "city_code": "652300000000",
+        "parent_code": "65",
+        "city_name": "昌吉回族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52661",
+        "city_code": "652700000000",
+        "parent_code": "65",
+        "city_name": "博尔塔拉蒙古自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52677",
+        "city_code": "652800000000",
+        "parent_code": "65",
+        "city_name": "巴音郭楞蒙古自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52694",
+        "city_code": "652900000000",
+        "parent_code": "65",
+        "city_name": "阿克苏地区",
+        "city_level": "1"
+      },
+      {
+        "id": "52708",
+        "city_code": "653000000000",
+        "parent_code": "65",
+        "city_name": "克孜勒苏柯尔克孜自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52721",
+        "city_code": "653100000000",
+        "parent_code": "65",
+        "city_name": "喀什地区",
+        "city_level": "1"
+      },
+      {
+        "id": "52731",
+        "city_code": "653200000000",
+        "parent_code": "65",
+        "city_name": "和田地区",
+        "city_level": "1"
+      },
+      {
+        "id": "52741",
+        "city_code": "654000000000",
+        "parent_code": "65",
+        "city_name": "伊犁哈萨克自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52753",
+        "city_code": "654200000000",
+        "parent_code": "65",
+        "city_name": "塔城地区",
+        "city_level": "1"
+      },
+      {
+        "id": "52761",
+        "city_code": "654300000000",
+        "parent_code": "65",
+        "city_name": "阿勒泰地区",
+        "city_level": "1"
+      },
+      {
+        "id": "52780",
+        "city_code": "659000000000",
+        "parent_code": "65",
+        "city_name": "自治区直辖县级行政区划",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "city_code": "52",
+    "parent_code": "0",
+    "city_name": "贵州省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "55",
+        "city_code": "520100000000",
+        "parent_code": "52",
+        "city_name": "贵阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52417",
+        "city_code": "520200000000",
+        "parent_code": "52",
+        "city_name": "六盘水市",
+        "city_level": "1"
+      },
+      {
+        "id": "52421",
+        "city_code": "520300000000",
+        "parent_code": "52",
+        "city_name": "遵义市",
+        "city_level": "1"
+      },
+      {
+        "id": "52430",
+        "city_code": "520400000000",
+        "parent_code": "52",
+        "city_name": "安顺市",
+        "city_level": "1"
+      },
+      {
+        "id": "52439",
+        "city_code": "520500000000",
+        "parent_code": "52",
+        "city_name": "毕节市",
+        "city_level": "1"
+      },
+      {
+        "id": "52447",
+        "city_code": "520600000000",
+        "parent_code": "52",
+        "city_name": "铜仁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52461",
+        "city_code": "522300000000",
+        "parent_code": "52",
+        "city_name": "黔西南布依族苗族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52483",
+        "city_code": "522600000000",
+        "parent_code": "52",
+        "city_name": "黔东南苗族侗族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52497",
+        "city_code": "522700000000",
+        "parent_code": "52",
+        "city_name": "黔南布依族苗族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "city_code": "45",
+    "parent_code": "0",
+    "city_name": "广西壮族自治区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "48",
+        "city_code": "450100000000",
+        "parent_code": "45",
+        "city_name": "南宁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52532",
+        "city_code": "450200000000",
+        "parent_code": "45",
+        "city_name": "柳州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52549",
+        "city_code": "450300000000",
+        "parent_code": "45",
+        "city_name": "桂林市",
+        "city_level": "1"
+      },
+      {
+        "id": "52569",
+        "city_code": "450400000000",
+        "parent_code": "45",
+        "city_name": "梧州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52735",
+        "city_code": "450500000000",
+        "parent_code": "45",
+        "city_name": "北海市",
+        "city_level": "1"
+      },
+      {
+        "id": "52744",
+        "city_code": "450600000000",
+        "parent_code": "45",
+        "city_name": "防城港市",
+        "city_level": "1"
+      },
+      {
+        "id": "52755",
+        "city_code": "450700000000",
+        "parent_code": "45",
+        "city_name": "钦州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52763",
+        "city_code": "450800000000",
+        "parent_code": "45",
+        "city_name": "贵港市",
+        "city_level": "1"
+      },
+      {
+        "id": "52772",
+        "city_code": "450900000000",
+        "parent_code": "45",
+        "city_name": "玉林市",
+        "city_level": "1"
+      },
+      {
+        "id": "52787",
+        "city_code": "451000000000",
+        "parent_code": "45",
+        "city_name": "百色市",
+        "city_level": "1"
+      },
+      {
+        "id": "52792",
+        "city_code": "451100000000",
+        "parent_code": "45",
+        "city_name": "贺州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52795",
+        "city_code": "451200000000",
+        "parent_code": "45",
+        "city_name": "河池市",
+        "city_level": "1"
+      },
+      {
+        "id": "52799",
+        "city_code": "451300000000",
+        "parent_code": "45",
+        "city_name": "来宾市",
+        "city_level": "1"
+      },
+      {
+        "id": "52802",
+        "city_code": "451400000000",
+        "parent_code": "45",
+        "city_name": "崇左市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "city_code": "62",
+    "parent_code": "0",
+    "city_name": "甘肃省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "49",
+        "city_code": "620100000000",
+        "parent_code": "62",
+        "city_name": "兰州市",
+        "city_level": "1"
+      },
+      {
+        "id": "42281",
+        "city_code": "620200000000",
+        "parent_code": "62",
+        "city_name": "嘉峪关市",
+        "city_level": "1"
+      },
+      {
+        "id": "44120",
+        "city_code": "620300000000",
+        "parent_code": "62",
+        "city_name": "金昌市",
+        "city_level": "1"
+      },
+      {
+        "id": "50244",
+        "city_code": "620400000000",
+        "parent_code": "62",
+        "city_name": "白银市",
+        "city_level": "1"
+      },
+      {
+        "id": "52466",
+        "city_code": "620500000000",
+        "parent_code": "62",
+        "city_name": "天水市",
+        "city_level": "1"
+      },
+      {
+        "id": "52477",
+        "city_code": "620600000000",
+        "parent_code": "62",
+        "city_name": "武威市",
+        "city_level": "1"
+      },
+      {
+        "id": "52493",
+        "city_code": "620700000000",
+        "parent_code": "62",
+        "city_name": "张掖市",
+        "city_level": "1"
+      },
+      {
+        "id": "52520",
+        "city_code": "620800000000",
+        "parent_code": "62",
+        "city_name": "平凉市",
+        "city_level": "1"
+      },
+      {
+        "id": "52537",
+        "city_code": "620900000000",
+        "parent_code": "62",
+        "city_name": "酒泉市",
+        "city_level": "1"
+      },
+      {
+        "id": "52556",
+        "city_code": "621000000000",
+        "parent_code": "62",
+        "city_name": "庆阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52576",
+        "city_code": "621100000000",
+        "parent_code": "62",
+        "city_name": "定西市",
+        "city_level": "1"
+      },
+      {
+        "id": "52595",
+        "city_code": "621200000000",
+        "parent_code": "62",
+        "city_name": "陇南市",
+        "city_level": "1"
+      },
+      {
+        "id": "52610",
+        "city_code": "622900000000",
+        "parent_code": "62",
+        "city_name": "临夏回族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52627",
+        "city_code": "623000000000",
+        "parent_code": "62",
+        "city_name": "甘南藏族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "city_code": "31",
+    "parent_code": "0",
+    "city_name": "上海市",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "32",
+        "city_code": "310100000000",
+        "parent_code": "31",
+        "city_name": "上海市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "city_code": "23",
+    "parent_code": "0",
+    "city_name": "黑龙江省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "51",
+        "city_code": "230100000000",
+        "parent_code": "23",
+        "city_name": "哈尔滨市",
+        "city_level": "1"
+      },
+      {
+        "id": "52523",
+        "city_code": "230200000000",
+        "parent_code": "23",
+        "city_name": "齐齐哈尔市",
+        "city_level": "1"
+      },
+      {
+        "id": "52540",
+        "city_code": "230300000000",
+        "parent_code": "23",
+        "city_name": "鸡西市",
+        "city_level": "1"
+      },
+      {
+        "id": "52566",
+        "city_code": "230400000000",
+        "parent_code": "23",
+        "city_name": "鹤岗市",
+        "city_level": "1"
+      },
+      {
+        "id": "52588",
+        "city_code": "230500000000",
+        "parent_code": "23",
+        "city_name": "双鸭山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52604",
+        "city_code": "230600000000",
+        "parent_code": "23",
+        "city_name": "大庆市",
+        "city_level": "1"
+      },
+      {
+        "id": "52618",
+        "city_code": "230700000000",
+        "parent_code": "23",
+        "city_name": "伊春市",
+        "city_level": "1"
+      },
+      {
+        "id": "52629",
+        "city_code": "230800000000",
+        "parent_code": "23",
+        "city_name": "佳木斯市",
+        "city_level": "1"
+      },
+      {
+        "id": "52645",
+        "city_code": "230900000000",
+        "parent_code": "23",
+        "city_name": "七台河市",
+        "city_level": "1"
+      },
+      {
+        "id": "52656",
+        "city_code": "231000000000",
+        "parent_code": "23",
+        "city_name": "牡丹江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52675",
+        "city_code": "231100000000",
+        "parent_code": "23",
+        "city_name": "黑河市",
+        "city_level": "1"
+      },
+      {
+        "id": "52687",
+        "city_code": "231200000000",
+        "parent_code": "23",
+        "city_name": "绥化市",
+        "city_level": "1"
+      },
+      {
+        "id": "52702",
+        "city_code": "232700000000",
+        "parent_code": "23",
+        "city_name": "大兴安岭地区",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "city_code": "22",
+    "parent_code": "0",
+    "city_name": "吉林省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "41",
+        "city_code": "220100000000",
+        "parent_code": "22",
+        "city_name": "长春市",
+        "city_level": "1"
+      },
+      {
+        "id": "52482",
+        "city_code": "220200000000",
+        "parent_code": "22",
+        "city_name": "吉林市",
+        "city_level": "1"
+      },
+      {
+        "id": "52504",
+        "city_code": "220300000000",
+        "parent_code": "22",
+        "city_name": "四平市",
+        "city_level": "1"
+      },
+      {
+        "id": "52517",
+        "city_code": "220400000000",
+        "parent_code": "22",
+        "city_name": "辽源市",
+        "city_level": "1"
+      },
+      {
+        "id": "52538",
+        "city_code": "220500000000",
+        "parent_code": "22",
+        "city_name": "通化市",
+        "city_level": "1"
+      },
+      {
+        "id": "52568",
+        "city_code": "220600000000",
+        "parent_code": "22",
+        "city_name": "白山市",
+        "city_level": "1"
+      },
+      {
+        "id": "52587",
+        "city_code": "220700000000",
+        "parent_code": "22",
+        "city_name": "松原市",
+        "city_level": "1"
+      },
+      {
+        "id": "52603",
+        "city_code": "220800000000",
+        "parent_code": "22",
+        "city_name": "白城市",
+        "city_level": "1"
+      },
+      {
+        "id": "52614",
+        "city_code": "222400000000",
+        "parent_code": "22",
+        "city_name": "延边朝鲜族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "city_code": "42",
+    "parent_code": "0",
+    "city_name": "湖北省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "43",
+        "city_code": "420100000000",
+        "parent_code": "42",
+        "city_name": "武汉市",
+        "city_level": "1"
+      },
+      {
+        "id": "52561",
+        "city_code": "420200000000",
+        "parent_code": "42",
+        "city_name": "黄石市",
+        "city_level": "1"
+      },
+      {
+        "id": "52583",
+        "city_code": "420300000000",
+        "parent_code": "42",
+        "city_name": "十堰市",
+        "city_level": "1"
+      },
+      {
+        "id": "52594",
+        "city_code": "420500000000",
+        "parent_code": "42",
+        "city_name": "宜昌市",
+        "city_level": "1"
+      },
+      {
+        "id": "52616",
+        "city_code": "420600000000",
+        "parent_code": "42",
+        "city_name": "襄阳市",
+        "city_level": "1"
+      },
+      {
+        "id": "52631",
+        "city_code": "420700000000",
+        "parent_code": "42",
+        "city_name": "鄂州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52643",
+        "city_code": "420800000000",
+        "parent_code": "42",
+        "city_name": "荆门市",
+        "city_level": "1"
+      },
+      {
+        "id": "52658",
+        "city_code": "420900000000",
+        "parent_code": "42",
+        "city_name": "孝感市",
+        "city_level": "1"
+      },
+      {
+        "id": "52672",
+        "city_code": "421000000000",
+        "parent_code": "42",
+        "city_name": "荆州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52690",
+        "city_code": "421100000000",
+        "parent_code": "42",
+        "city_name": "黄冈市",
+        "city_level": "1"
+      },
+      {
+        "id": "52706",
+        "city_code": "421200000000",
+        "parent_code": "42",
+        "city_name": "咸宁市",
+        "city_level": "1"
+      },
+      {
+        "id": "52717",
+        "city_code": "421300000000",
+        "parent_code": "42",
+        "city_name": "随州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52730",
+        "city_code": "422800000000",
+        "parent_code": "42",
+        "city_name": "恩施土家族苗族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "city_code": "63",
+    "parent_code": "0",
+    "city_name": "青海省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "35",
+        "city_code": "630100000000",
+        "parent_code": "63",
+        "city_name": "西宁市",
+        "city_level": "1"
+      },
+      {
+        "id": "38271",
+        "city_code": "630200000000",
+        "parent_code": "63",
+        "city_name": "海东市",
+        "city_level": "1"
+      },
+      {
+        "id": "52407",
+        "city_code": "632200000000",
+        "parent_code": "63",
+        "city_name": "海北藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52408",
+        "city_code": "632300000000",
+        "parent_code": "63",
+        "city_name": "黄南藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52409",
+        "city_code": "632500000000",
+        "parent_code": "63",
+        "city_name": "海南藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52411",
+        "city_code": "632600000000",
+        "parent_code": "63",
+        "city_name": "果洛藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52413",
+        "city_code": "632700000000",
+        "parent_code": "63",
+        "city_name": "玉树藏族自治州",
+        "city_level": "1"
+      },
+      {
+        "id": "52414",
+        "city_code": "632800000000",
+        "parent_code": "63",
+        "city_name": "海西蒙古族藏族自治州",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "city_code": "36",
+    "parent_code": "0",
+    "city_name": "江西省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "36",
+        "city_code": "360100000000",
+        "parent_code": "36",
+        "city_name": "南昌市",
+        "city_level": "1"
+      },
+      {
+        "id": "52480",
+        "city_code": "360200000000",
+        "parent_code": "36",
+        "city_name": "景德镇市",
+        "city_level": "1"
+      },
+      {
+        "id": "52501",
+        "city_code": "360300000000",
+        "parent_code": "36",
+        "city_name": "萍乡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52516",
+        "city_code": "360400000000",
+        "parent_code": "36",
+        "city_name": "九江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52536",
+        "city_code": "360500000000",
+        "parent_code": "36",
+        "city_name": "新余市",
+        "city_level": "1"
+      },
+      {
+        "id": "52555",
+        "city_code": "360600000000",
+        "parent_code": "36",
+        "city_name": "鹰潭市",
+        "city_level": "1"
+      },
+      {
+        "id": "52581",
+        "city_code": "360700000000",
+        "parent_code": "36",
+        "city_name": "赣州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52596",
+        "city_code": "360800000000",
+        "parent_code": "36",
+        "city_name": "吉安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52612",
+        "city_code": "360900000000",
+        "parent_code": "36",
+        "city_name": "宜春市",
+        "city_level": "1"
+      },
+      {
+        "id": "52624",
+        "city_code": "361000000000",
+        "parent_code": "36",
+        "city_name": "抚州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52666",
+        "city_code": "361100000000",
+        "parent_code": "36",
+        "city_name": "上饶市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "city_code": "32",
+    "parent_code": "0",
+    "city_name": "江苏省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663135",
+        "city_code": "320583000000",
+        "parent_code": "32",
+        "city_name": "昆山市",
+        "city_level": "1"
+      },
+      {
+        "id": "57",
+        "city_code": "320100000000",
+        "parent_code": "32",
+        "city_name": "南京市",
+        "city_level": "1"
+      },
+      {
+        "id": "47733",
+        "city_code": "320200000000",
+        "parent_code": "32",
+        "city_name": "无锡市",
+        "city_level": "1"
+      },
+      {
+        "id": "52654",
+        "city_code": "320300000000",
+        "parent_code": "32",
+        "city_name": "徐州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52681",
+        "city_code": "320400000000",
+        "parent_code": "32",
+        "city_name": "常州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52696",
+        "city_code": "320500000000",
+        "parent_code": "32",
+        "city_name": "苏州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52707",
+        "city_code": "320600000000",
+        "parent_code": "32",
+        "city_name": "南通市",
+        "city_level": "1"
+      },
+      {
+        "id": "52720",
+        "city_code": "320700000000",
+        "parent_code": "32",
+        "city_name": "连云港市",
+        "city_level": "1"
+      },
+      {
+        "id": "52728",
+        "city_code": "320800000000",
+        "parent_code": "32",
+        "city_name": "淮安市",
+        "city_level": "1"
+      },
+      {
+        "id": "52746",
+        "city_code": "320900000000",
+        "parent_code": "32",
+        "city_name": "盐城市",
+        "city_level": "1"
+      },
+      {
+        "id": "52759",
+        "city_code": "321000000000",
+        "parent_code": "32",
+        "city_name": "扬州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52769",
+        "city_code": "321100000000",
+        "parent_code": "32",
+        "city_name": "镇江市",
+        "city_level": "1"
+      },
+      {
+        "id": "52778",
+        "city_code": "321200000000",
+        "parent_code": "32",
+        "city_name": "泰州市",
+        "city_level": "1"
+      },
+      {
+        "id": "52785",
+        "city_code": "321300000000",
+        "parent_code": "32",
+        "city_name": "宿迁市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "city_code": "11",
+    "parent_code": "0",
+    "city_name": "北京市",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "39",
+        "city_code": "110100000000",
+        "parent_code": "11",
+        "city_name": "北京市",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "663126",
+    "city_code": "81",
+    "parent_code": "0",
+    "city_name": "香港特别行政区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663127",
+        "city_code": "810000",
+        "parent_code": "81",
+        "city_name": "香港特别行政区",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "663128",
+    "city_code": "82",
+    "parent_code": "0",
+    "city_name": "澳门特别行政区",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663129",
+        "city_code": "820000",
+        "parent_code": "82",
+        "city_name": "澳门特别行政区",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "663130",
+    "city_code": "71",
+    "parent_code": "0",
+    "city_name": "台湾省",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663131",
+        "city_code": "710000",
+        "parent_code": "71",
+        "city_name": "台湾",
+        "city_level": "1"
+      }
+    ]
+  },
+  {
+    "id": "663132",
+    "city_code": "999",
+    "parent_code": "0",
+    "city_name": "海外",
+    "city_level": "0",
+    "child": [
+      {
+        "id": "663133",
+        "city_code": "999000",
+        "parent_code": "999",
+        "city_name": "海外",
+        "city_level": "1"
+      }
+    ]
+  }
+]
